@@ -102,8 +102,8 @@
 "
 " SOLARIZED HEX     16/8 TERMCOL  XTERM/HEX   L*A*B      sRGB        HSB
 " --------- ------- ---- -------  ----------- ---------- ----------- -----------
-" base03    #323232  8/4          236 #303030             50  50  50   0   0  19
-" base02    #3D3F40  0/4          234 #3a3a3a             61  63  64 199   4  25
+" base03    #323232  8/4          234 #1c1c1c            50  50  50   0   0  19
+" base02    #3D3F40  0/4          233 #121212             61  63  64 199   4  25
 " base01    #525657 10/7          242 #6c6c6c            138 138 138   0   0  54
 " base00    #6A6D6F 11/7          241
 " base0     #828687 12/6          244
@@ -247,8 +247,8 @@ let colors_name = "solarized"
 " neutral gray monotone palette component)
 if (has("gui_running") && g:solarized_degrade == 0)
     let s:vmode       = "gui"
-    let s:base03      = "#323232"
-    let s:base02      = "#3D3F40"
+    let s:base03      = "#1c1c1c"
+    let s:base02      = "#121212"
     let s:base01      = "#525657"
     let s:base00      = "#6A6D6F"
     let s:base0       = "#828687"
@@ -270,7 +270,7 @@ elseif (has("gui_running") && g:solarized_degrade == 1)
     " recommened and is for testing only.
     let s:vmode       = "gui"
     let s:base03      = "#1c1c1c"
-    let s:base02      = "#262626"
+    let s:base02      = "#121212"
     let s:base01      = "#4e4e4e"
     let s:base00      = "#585858"
     let s:base0       = "#808080"
@@ -305,8 +305,8 @@ elseif g:solarized_termcolors != 256 && &t_Co >= 16
     let s:green       = "2"
 elseif g:solarized_termcolors == 256
     let s:vmode       = "cterm"
-    let s:base03      = "236"
-    let s:base02      = "234"
+    let s:base03      = "234"
+    let s:base02      = "233"
     let s:base01      = "242"
     let s:base00      = "241"
     let s:base0       = "244"
