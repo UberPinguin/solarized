@@ -103,7 +103,7 @@
 " SOLARIZED HEX     16/8 TERMCOL  XTERM/HEX   L*A*B      sRGB        HSB
 " --------- ------- ---- -------  ----------- ---------- ----------- -----------
 " base03    #323232  8/4          236 #303030             50  50  50   0   0  19
-" base02    #3D3F40  0/4          237 #3a3a3a             61  63  64 199   4  25
+" base02    #3D3F40  0/4          234 #3a3a3a             61  63  64 199   4  25
 " base01    #525657 10/7          242 #6c6c6c            138 138 138   0   0  54
 " base00    #6A6D6F 11/7          241
 " base0     #828687 12/6          244
@@ -306,7 +306,7 @@ elseif g:solarized_termcolors != 256 && &t_Co >= 16
 elseif g:solarized_termcolors == 256
     let s:vmode       = "cterm"
     let s:base03      = "236"
-    let s:base02      = "237"
+    let s:base02      = "234"
     let s:base01      = "242"
     let s:base00      = "241"
     let s:base0       = "244"
